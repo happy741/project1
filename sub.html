@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+
+<style>
+    *{margin: 0; padding:0;}
+    .buy{width: 1400px; height: 680px; background-color:#f9f6ef; margin:0 auto; margin-top:15px;} 
+    .sell{width:400px; height: 480px; position: relative; top:50px; left:120px; float: left;}
+    .bt button{width:100px; height:100px; margin:70px 20px 0 0; cursor: pointer; border:none;}
+    .bt{margin-left:145px; clear:both;}
+    .buy h1{ float: right; position: relative; bottom:550px; right:400px; font-size: 38px; font-family: 'Franklin Gothic Demi';}
+    .buy span{float: right; position: relative; bottom:410px; font-size: 25px; right:270px; color:#666; font-family: Maiandra GD;}
+    .buy span img{ width: 30px; height: 30px; position: relative; top:7px; right:5px;} 
+    .color{ width: 25px; height: 25px;  float: right; position: relative; bottom:350px; right:165px; margin:0 15px 0px 0;cursor: pointer}
+   .color button{border:none; cursor:pointer;}
+    .buy .textbox{width: 550px; height: 123px; float: right; position: relative; left:380px; bottom:300px;}
+    .buy p{color:#666; font-family: '나눔고딕OTF'; line-height: 27px;}
+    .buy #aa{ width:350px; height: 40px; float: right; position: relative; right:350px;bottom:200px; background-color: #666; color:#fff; font-size: 18px; border:none; 
+                border-radius: 10px; cursor: pointer;}
+
+
+    #z{display:none;}
+    #x{display:none;}
+    #c{display:none;}
+    #red{display:none;}
+    #black{display:none;}
+
+
+    .products{width: 1200px; height: 428px; margin:0 auto; position: relative;}
+    .products h1{text-align: center; display: inline-block; position: relative; left:500px; bottom:30px;}
+    .guitar{width:200px; height: 245px; position:relative; overflow: hidden; }
+    .guitar img{width: 100%; display: block; height: 100%; z-index: 10; transition: all 0.35s ease-in-out; transform: scale(1);}
+    
+    .text{position: absolute; left:0; top:auto; bottom:-100%; right:0;
+            background: rgba(0,0,0,0.7);
+            color:#fff; padding:13px; text-align: center; transition:all 0.35s ease-in-out;  }
+            .guitar:hover .text{opacity: 1; bottom:0;}
+
+    
+    .container{ width: 1200px; height: 300px;  display: flex; justify-content: space-around;}
+
+    .go{width: 1200px; height: 100px;  display: flex; margin:0 auto;}
+    .go2{ width:122px; height: 31px;  margin:50px 10px 0 15px; }
+    .go button{ width:122px; height: 31px; background-color: #fff; color:#333; border:1px solid #333;; font-family: 나눔고딕OTF;cursor:pointer }
+
+
+
+    .detail{ width: 1200px; height: 7516px; background-color: #666; margin:0 auto;}
+
+
+
+    .rievew{width: 1200px; height: 650px; margin:0 auto;}
+    .page{width: 1200px; height: 40px;  margin:0 auto; display: flex;}
+    .box{width: 120px; height: 31px; margin:10px 10px 0 15px;}
+
+    .rr1 h1{ display: inline-block; margin:15px; font-family: 나눔고딕OTF; margin:27px 10px 5px 0;}
+    .rr1 span{margin:10px 0 0 -15px; font-size: 17px; font-family: 나눔고딕OTF;}
+    .rrbox{ width: 1200px; height:400px;}
+    .rrbox div{width: 250px; height: 300px; background-color: #fff; position: relative;left:20px; top:30px;}
+    .rievew button{float: right; width: 120px; height: 31px; background-color: #fff; border:1px solid #666; font-family: 나눔고딕OTF; cursor:pointer
+                    ;margin:10px 0 0 0;}
+    .rrbox img{width: 270px; height: 350px;}
+    
+    
+
+
+
+
+</style>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+<script>
+    $(function(){
+       $('#zz').click(function(){
+        $('#z').fadeIn();
+        $('#x').hide();
+        $('#c').hide();
+        $('#v').hide();
+        $('#red').hide();
+            $('#black').hide();
+       }); 
+
+       $('#xx').click(function(){
+        $('#z').hide();
+        $('#x').fadeIn();
+        $('#c').hide();
+        $('#v').hide();
+        $('#red').hide();
+            $('#black').hide();
+       });
+
+       $('#cc').click(function(){
+        $('#z').hide();
+        $('#x').hide();
+        $('#c').fadeIn();
+        $('#v').hide();
+        $('#red').hide();
+            $('#black').hide();
+       }); 
+
+
+    });
+
+    $(function(){
+        $('#b').click(function(){
+            $('#v').fadeIn();
+            $('#red').hide();
+            $('#black').hide();
+            $('#x').hide();
+            $('#c').hide();
+            $('#z').hide();
+        });
+
+        $('#r').click(function(){
+            $('#v').hide();
+            $('#red').fadeIn();
+            $('#black').hide();
+            $('#x').hide();
+            $('#c').hide();
+            $('#z').hide();
+        });
+
+        $('#bla').click(function(){
+            $('#v').hide();
+            $('#red').hide();
+            $('#black').fadeIn();
+            $('#x').hide();
+            $('#c').hide();
+            $('#z').hide();
+        });
+
+
+
+
+
+    });
+
+
+
+
+
+</script>
+</head>
+<body>
+<header>
+    <nav>
+        <ul id="nav1">
+            <li><a href="">Guitar</a>
+                <ul>
+                    <li><a href="">Electronic</a></li>
+                    <li><a href="">Acoustic</a></li>
+                    <li><a href="">Base</a></li>
+
+
+                </ul>
+            </li>
+            <li><a href="">Keybord</a>
+            <ul>
+                <li><a href="">Electronic</a></li>
+                <li><a href="">Acoustic</a></li>
+                <li><a href="">Base</a></li>
+
+
+            </ul>
+            </li>
+
+            <li><a href="">Drum</a>
+                <ul>
+                    <li><a href="">Electronic</a></li>
+                    <li><a href="">Acoustic</a></li>
+                    <li><a href="">Base</a></li>
+
+
+                </ul>
+            </li>
+
+
+            <li><a href="">Microphone</a>
+                <ul>
+                    <li><a href="">Electronic</a></li>
+                    <li><a href="">Acoustic</a></li>
+                    <li><a href="">Base</a></li>
+
+
+                </ul>
+            </li>
+            <li><a href="">LP</a>
+                <ul>
+                    <li><a href="">Electronic</a></li>
+                    <li><a href="">Acoustic</a></li>
+                    <li><a href="">Base</a></li>
+
+
+                </ul>
+            
+            
+            </li>
+        </ul>
+
+    
+
+    </nav>
+
+    <div id="logo">
+        <img src="img/logo2.png" alt="logo">
+
+    </div>
+    <ul id="nav2">
+        <li><a href="">Amp</a>
+            <ul>
+                <li><a href="">Electronic</a></li>
+                <li><a href="">Acoustic</a></li>
+                <li><a href="">Base</a></li>
+
+
+            </ul>
+        </li>
+
+
+        <li><a href="">Case</a>
+            <ul>
+                <li><a href="">Electronic</a></li>
+                <li><a href="">Acoustic</a></li>
+                <li><a href="">Base</a></li>
+
+
+            </ul>
+        </li>
+
+
+        <li><a href="">Effector</a>
+            <ul>
+                <li><a href="">Electronic</a></li>
+                <li><a href="">Acoustic</a></li>
+                <li><a href="">Base</a></li>
+
+
+            </ul>
+        </li>
+
+
+        <li><a href="">Act</a>
+            <ul>
+                <li><a href="">Electronic</a></li>
+                <li><a href="">Acoustic</a></li>
+                <li><a href="">Base</a></li>
+
+
+            </ul>
+        </li>
+    </ul>
+
+    <div id="my">
+        <div class="icon">
+            <a href=""><img src="img/돋보기.jpg" alt="돋보기"></a>
+
+        </div>
+        <div class="icon">
+            <a href=""><img src="img/사람.jpg" alt="사람"></a>
+            
+        </div>
+
+        <div class="icon">
+            <a href=""><img src="img/하트.jpg" alt="하트"></a>
+            
+        </div>
+
+        
+        
+    </div>
+</header>
+    
+    
+ <div class="buy">
+        <div class="back"></div>
+
+        <div class="sell">
+            <img src="img/sub/기타.png" alt="" id="v">
+            <img src="img/sub/기타1.png" alt="" id="z">
+            <img src="img/sub/기타2.png" alt=""  id="x">
+            <img src="img/sub/기타3.png" alt=""  id="c">
+
+            <img src="img/sub/red.png" alt=""  id="red">
+            <img src="img/sub/black.png" alt=""  id="black">
+            
+
+        </div>
+        <div class="bt">
+
+        
+        <button><img src="img/sub/버튼1.png" alt="" id="zz"></button>
+        <button><img src="img/sub/버튼2.png" alt="" id="xx"></button>
+        <button><img src="img/sub/버튼3.png" alt="" id="cc"></button>
+         </div>
+        <h1>GrassRoots G-LP-60S <br>
+            Cherry Sunburst</h1>
+        <span><img src="img/원2.png" alt="won">658,000</span>
+        
+        <div class="color">
+            <button><img src="img/sub/color3.png" alt="" id="bla"></button>
+        </div>
+        <div class="color">
+            <button><img src="img/sub/color2.png" alt="" id="r"></button>
+        </div>
+
+        <div class="color">
+            <button><img src="img/sub/color1.png" alt="" id="b"></button>
+        </div>
+        <div class="textbox">
+
+        
+            <p>일본 최고의 악기 브랜드 ESP.
+            합리적인 가격으로 ESP를 체험해 볼 수 있는 GrassRoots 입니다.<br>
+            <br>
+            축적된 기술과 장인 정신, 열정을 그대로 담아 제작된 명품 일렉트릭 기타이며,<br>
+            2007년 처음 소개되어 국내 연주자들에게 큰 인상을 심어 주었던 그 제품입니다.
+            합리적인 가격대에 결코 떨어지지 않는 고품질의 퀄리티를 자랑합니다.</p>
+        </div>
+            <button id="aa">buy</button>
+
+
+
+
+    </div>
+
+    <div class="products">
+        <h1>Related products</h1>
+        <div class="container">
+
+        
+        <div class="guitar">
+          
+            <a href=""><img src="img/sub/pro1.png" alt=""></a>
+            <div class="text">
+            <span> ESP Original</span>
+            </div>
+        </div>
+        <div class="guitar">
+            <a href=""><img src="img/sub/pro2.png" alt=""></a>
+            <div class="text">
+            <span> JS Series Kellyr</span>
+            </div>
+        </div>
+        <div class="guitar">
+            <a href=""><img src="img/sub/pro3.png" alt=""></a> 
+
+            <div class="text">
+            <span>Revstar Element</span>
+            </div>
+        </div>
+        <div class="guitar">
+            <a href=""><img src="img/sub/pro4.png" alt=""></a>
+            <div class="text m1">
+            <span> Solar </span>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="go">
+        <div class="go2">
+            <a href="#11"><button id="1">상품후기</button></a>
+
+        </div> 
+        <div class="go2">
+            <a href="#22"><button id="2">상품상세</button></a>
+    </div> 
+    <div class="go2">
+        <a href="#11"> <button id="3">QnA</button></a>
+    </div> 
+    <div class="go2">
+        <a href="#11"> <button id="4">교환/반품안내</button></a>
+    </div> 
+
+ </div>
+
+
+   </div>
+
+    <div class="detail">
+    <img src="img/sub/detail.jpg" alt="detail">
+        
+
+
+    </div>
+ <div class="rievew">
+
+
+
+ <div class="page">
+
+    <div class="box">
+        <a href="#11"><button id="11">상품후기</button></a>
+    </div>
+    <div class="box">
+        <a href="#1"> <button id="11">상품상세</button></a>
+    </div>
+    <div class="box">
+        <button id="11">QnA</button>
+    </div>
+    <div class="box">
+        <button id="11">교환/반품안내</button>
+    </div>
+    </div>
+
+<div class="rr1">
+    <h1>리뷰</h1>
+    <span>(1)</span>
+    <hr>
+    <div class="rrbox">
+    
+    <div><img src="img/sub/후기.png"></div>
+
+    </div>
+    <hr>
+   <button>리뷰쓰기</button>
+</div>
+
+ </div>
+
+  </div>
+  <hr>
+
+
+
+ 
+<div id="ffin">
+    <img src="img/logo2.png" class="ll" alt="logo2"> 
+    <span>musicon 2002 allrights reserved</span>
+        
+    <div class="imgbox">
+        <img src="img/paypal.jpg" alt="pa">
+    </div>
+
+
+    <div class="imgbox">
+        <img src="img/visa.jpg" alt="vi">
+    </div>
+
+    
+    <div class="imgbox">
+        <img src="img/master.png" alt="master">
+    </div>
+</div>
+
+
+</footer>
+
+
+
+</body>
+</html>
