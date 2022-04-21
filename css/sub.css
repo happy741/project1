@@ -1,0 +1,78 @@
+*{margin: 0; padding:0;}
+.buy{width: 1400px; height: 680px; background-color:#f9f6ef; margin:0 auto; margin-top:15px;} 
+.sell{width:400px; height: 480px; position: relative; top:50px; left:120px; float: left;}
+.bt button{width:100px; height:100px; margin:70px 20px 0 0; cursor: pointer; border:none;}
+.bt{margin-left:145px; clear:both;}
+.buy h1{ float: right; position: relative; bottom:550px; right:400px; font-size: 38px; font-family: 'Franklin Gothic Demi';}
+.buy span{float: right; position: relative; bottom:410px; font-size: 25px; right:270px; color:#666; font-family: Maiandra GD;}
+.buy span img{ width: 30px; height: 30px; position: relative; top:7px; right:5px;} 
+.color{ width: 25px; height: 25px;  float: right; position: relative; bottom:350px; right:165px; margin:0 15px 0px 0;cursor: pointer}
+.color button{border:none; cursor:pointer;}
+.buy .textbox{width: 550px; height: 123px; float: right; position: relative; left:380px; bottom:300px;}
+.buy p{color:#666; font-family: '나눔고딕OTF'; line-height: 27px;}
+.buy #aa{ width:350px; height: 40px; float: right; position: relative; right:350px;bottom:200px; background-color: #666; color:#fff; font-size: 18px; border:none; 
+            border-radius: 10px; cursor: pointer;}
+
+        
+
+#z{display:none;}
+#x{display:none;}
+#c{display:none;}
+#red{display:none;}
+#black{display:none;}
+
+
+.products{width: 1200px; height: 428px; margin:0 auto; position: relative;}
+.products h1{text-align: center; display: inline-block; position: relative; left:500px; bottom:30px;}
+.guitar{width:200px; height: 245px; position:relative; overflow: hidden; }
+.guitar img{width: 100%; display: block; height: 100%; z-index: 10; transition: all 0.35s ease-in-out; transform: scale(1);}
+
+.text{position: absolute; left:0; top:auto; bottom:-100%; right:0;
+        background: rgba(0,0,0,0.7);
+        color:#fff; padding:13px; text-align: center; transition:all 0.35s ease-in-out;  }
+        .guitar:hover .text{opacity: 1; bottom:0;}
+
+
+.container{ width: 1200px; height: 300px;  display: flex; justify-content: space-around;}
+
+.go{width: 1200px; height: 100px;  display: flex; margin:0 auto;}
+.go2{ width:122px; height: 31px;  margin:50px 10px 0 15px; }
+.go button{ width:122px; height: 31px; background-color: #fff; color:#333; border:1px solid #333;; font-family: 나눔고딕OTF;cursor:pointer }
+
+
+
+.detail{ width: 1200px; height: 7516px; background-color: #666; margin:0 auto;}
+
+
+
+.rievew{width: 1200px; height: 650px; margin:0 auto;}
+.page{width: 1200px; height: 40px;  margin:0 auto; display: flex;}
+.box{width: 120px; height: 31px; margin:10px 10px 0 15px;}
+
+.rr1 h1{ display: inline-block; margin:15px; font-family: 나눔고딕OTF; margin:27px 10px 5px 0;}
+.rr1 span{margin:10px 0 0 -15px; font-size: 17px; font-family: 나눔고딕OTF;}
+.rrbox{ width: 1200px; height:400px;}
+.rrbox div{width: 250px; height: 300px; background-color: #fff; position: relative;left:20px; top:30px;}
+.rievew button{float: right; width: 120px; height: 31px; background-color: #fff; border:1px solid #666; font-family: 나눔고딕OTF; cursor:pointer
+                ;margin:10px 0 0 0;}
+.rrbox img{width: 270px; height: 350px;}
+
+.dossobox{width: 1200px; height: 400px;}
+.qnabox{width: 1200px; height: 400px;}
+
+.anso{ display: inline-block; margin:15px; font-family: 나눔고딕OTF; margin:27px 10px 5px 0;}
+#qq{display: none;}
+.anso{display: none;}
+.qna{display: inline-block; margin:15px; font-family: 나눔고딕OTF; margin:27px 10px 5px 0;}
+
+
+.qna h1{display: inline-block;}
+
+.page button:hover{ background-color: #666; color:#fff;}
+.page button{transition:all 0.3s ease;}
+.go button:hover{background-color: #666; color:#fff;}
+#nn:hover{background-color: #666; color:#fff;}
+.go button{transition:all 0.3s ease;}
+#aa:hover{background-color: #fff; color:#333;}
+#aa{transition:all 0.3s ease;}
+.page button:visited{background-color: rgb(182, 23, 23); color:#fff;}
