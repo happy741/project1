@@ -6,7 +6,7 @@ header ul li{list-style: none;padding:20px; display: inline-block;}
 header  ul li a{text-decoration: none; color:#333; display: inline-block;}
  #nav2{margin:0 0 0 50px;}
  header ul{display: inline;}
- header ul li ul{position: absolute; display: none;}
+ header ul li ul{position: absolute; display: none; z-index: 5;}
  header ul li:hover ul{display: block; background-color: #fff;}
  header ul li ul li{display: block;}
  header ul li ul li a:hover{text-decoration: underline;}

@@ -68,9 +68,17 @@
     .rievew button{float: right; width: 120px; height: 31px; background-color: #fff; border:1px solid #666; font-family: 나눔고딕OTF; cursor:pointer
                     ;margin:10px 0 0 0;}
     .rrbox img{width: 270px; height: 350px;}
-    
-    
 
+    .dossobox{width: 1200px; height: 400px;}
+    .qnabox{width: 1200px; height: 400px;}
+    
+    .anso{ display: inline-block; margin:15px; font-family: 나눔고딕OTF; margin:27px 10px 5px 0;}
+   #qq{display: none;}
+    .anso{display: none;}
+    .qna{display: inline-block; margin:15px; font-family: 나눔고딕OTF; margin:27px 10px 5px 0;}
+    
+    
+    .qna h1{display: inline-block;}
 
 
 
@@ -142,7 +150,41 @@
 
     });
 
+$(function(){
+ $('#44').click(function(){
+    $('.rr1').hide();
+    $('#qq').show();
+    $('.anso').hide();
+ });
+ $('#55').click(function(){
+    $('.rr1').hide();
+    $('#qq').hide();
+    $('.anso').show();
+ });
+ $('#11').click(function(){
+    $('.rr1').show();
+    $('#qq').hide();
+    $('.anso').hide();
+ });
+ $('#1').click(function(){
+    $('.rr1').show();
+    $('#qq').hide();
+    $('.anso').hide();
+ });
+ $('#3').click(function(){
+    $('.rr1').hide();
+    $('#qq').show();
+    $('.anso').hide();
+ });
+ $('#4').click(function(){
+    $('.rr1').hide();
+    $('#qq').hide();
+    $('.anso').show();
+ });
 
+
+
+});
 
 
 
@@ -404,10 +446,10 @@
         <a href="#1"> <button id="11">상품상세</button></a>
     </div>
     <div class="box">
-        <button id="11">QnA</button>
+        <button id="44">QnA</button>
     </div>
     <div class="box">
-        <button id="11">교환/반품안내</button>
+        <button id="55">교환/반품안내</button>
     </div>
     </div>
 
@@ -422,17 +464,51 @@
     </div>
     <hr>
    <button>리뷰쓰기</button>
+
 </div>
 
- </div>
+ 
+
+ 
+
+  
+<div class="qna">
+    <div id="qq">
+
+
+    <h1>QnA</h1>
+    <span>(1)</span>
+    <hr>
+
+    <div class="qnabox">
+    <img src="img/sub/qothd.PNG">
+</div>
+
+</div>
+<hr>
+</div>
+
+  <div class="anso">
+      
+    <h1>교환/반품안내</h1>
+    
+    
+    <div class="dkssobox">
+        <img src="img/dksso.PNG">
+    
+
+    </div>
 
   </div>
-  <hr>
 
+
+
+</div>
 
 
  
 <div id="ffin">
+    <hr>
     <img src="img/logo2.png" class="ll" alt="logo2"> 
     <span>musicon 2002 allrights reserved</span>
         
@@ -450,7 +526,7 @@
         <img src="img/master.png" alt="master">
     </div>
 </div>
-
+<hr>
 
 </footer>
 
