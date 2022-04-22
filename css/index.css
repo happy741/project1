@@ -1,11 +1,18 @@
 
+ @charset "UTF-8";
+ *{margin:0; padding:0;}
+ *ul, ol, li {list-style:none; margin:0; padding:0;}
+
+ 
+ 
+ 
  #section{width: 1713px; height: 865px; margin:0 auto;}
  #section img{width: 1713px; height: 865px;}
 
 
 
- #main{width: 1280px; height:840px; margin:0 auto;}
- #main h1{text-align: center;}
+ #main{width: 1280px; height:1040px; margin:0 auto;}
+ #main h1{text-align: center; position:relative; bottom:25px;}
  #main .strap{width: 600px; height: 415px;  float: left;margin: 0 0 0 20px;}
 
  .m1 .line1{width: 590px; height: 3px; background-color: #fff; position: relative; bottom:20px; left:4px; opacity:0; visibility: visible;}
@@ -35,10 +42,9 @@
 
 
 
-
- #strap{width: 600px; height: 415px;  float: right; margin:0 20px 0 0; z-index: 1;}
+  
+ #strap{width: 600px; height: 450px;  float: right; margin:0 20px 0 0; z-index: 1;}
  #strap:hover{opacity:0.8; transition: all 0.3s ease-in-out;
- 
  }
  
  #line1{width: 590px; height: 3px; background: #fff; z-index: 3; left:8px; bottom:30px; position: relative; opacity:0; visibility: visible;}
@@ -55,19 +61,24 @@
 
  
 
- #new{width: 1240px; height: 850px; margin:0 auto; float: left;}
+ #new{width: 1240px; height: 1050px; margin:0 auto; float: left;}
  #new h1{margin:50px 0 50px 0;}
  #best{width: 1250px; height: 1130px; margin:0 auto;}
- #best h1{text-align: center;}
- .hot{width: 287px; height: 370px;  float: left; margin:0 0px 5px 7px; background-color: #fff;
- box-shadow: 4px 4px 4px #eee; box-sizing: border-box;}
+ #best h1{text-align: center; position:relative; bottom:30px;}
+ .hot{width: 287px; height: 370px;  float: left; margin:0 0px 30px 7px; background-color: #fff;
+  box-shadow: 4px 4px 4px #eee; box-sizing: border-box;}
  .hot img{width: 287px; margin:0 0 20px 0;}
- #sellers{width: 1060px; height: 45px;  margin: 60px;}
- .hot .one{width:20px; height: 20px; float: left; margin:4px 0 0 0;} 
+ .abc ul li{width:100px; height:100%; display: inline-block; padding:15px; font-size: 20px;
+     margin:0 0 50px 52px; background-color: #eee; text-align: center; font-family: Arial, Helvetica, sans-serif;}
+ .abc ul li a{display: inline-block; text-decoration: none; text-decoration: none;color:#333;}
+  #aw{width:100px; height:100%; background-color: #2b324c; color:#fff;}
+
  .hot a{text-decoration: none; color:#666;}
- .hot h4{ margin:-15px 0 0 0; font-size: 20px;font-family:Segoe Print ;}
- .hot span{font-size: 18px; margin:0 0 0 5px; font-family:MD개성체 ;}
+ .hot h4{ margin:-15px 0 0 0; font-size: 20px;font-family:IgraSans; padding:10px;}
+ .hot span{font-size: 18px; margin:0 0 0 5px; font-family:IgraSans; padding:10px;}
  .hot:hover{opacity: 0.5; transition: all 0.3s ease-in-out;}
+ .m5{position:relative; top:4px;}
+ 
 
 
 
@@ -116,10 +127,10 @@
 
 
 
- #srtving {width: 1160px; height: 540px;  margin:0 auto;}
- #show{width:180px; height:150px;  float: left; margin:45px 0 25px 520px;}
+ #srtving {width: 1160px; height: 900px;  margin:0 auto;}
+ #show{width:180px; height:150px;  float: left; margin:320px 0 25px 520px;}
  #srtving h1{clear: both; text-align: center;}
- .company{width:200px; height:50px;  float: left; margin:100px 0px 0 4px;}
+ .company{width:200px; height:50px;  float: left; margin:500px 0px 0 4px;}
  .yama{margin:100px 0 0 150px;}
  .samick{margin: 100px 0 0 30px;}
  .casio{margin:85px 0 0 140px;}
@@ -139,13 +150,13 @@
  footer{width: 1280px;height: 210px; margin:0 auto;}
  #menu{width: 1313px; height: 310px; margin:0 auto;}
  #menu h1{width: 100px; height: 40px;}
- ul li{list-style: none; padding:10px;}
- ul li a{text-decoration: none; color:#333;}
+ #menu ul li{list-style: none; padding:10px; margin:10px 0 0 -11px;}
+ #menu ul li a{text-decoration: none; color:#333;}
  #aa{float: left; margin: 0 0 30px 0px;}
  #bb{float: left; margin:0 0 30px 50px;}
  #mmenu{width:320px; height:310px;float: left; margin: 0 0 0 70px;}
  #contacts{width: 350px; height: 310px; margin:0px 0 0 140px; float: left;}
-#contacts ul {margin:10px;}
+#contacts ul {margin:15px 0 0 0px;}
 
 
  #stay{width: 330px; height: 310px;  float: right; margin:0 100px 0 0;}
