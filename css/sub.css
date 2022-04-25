@@ -6,6 +6,7 @@ ul,ol,li{ list-style: none; margin:0; padding:0;}
 .bt{margin-left:145px; clear:both;}
 .buy h1{ float: right; position: relative; bottom:550px; right:400px; font-size: 38px; font-family: 'Franklin Gothic Demi';}
 .buy span{float: right; position: relative; bottom:410px; font-size: 25px; right:270px; color:#666; font-family: '나눔고딕OTF';}
+
 .buy span img{ width: 30px; height: 30px; position: relative; top:7px; right:5px;} 
 .color{ width: 25px; height: 25px;  float: right; position: relative; bottom:350px; right:165px; margin:0 15px 0px 0;cursor: pointer}
 .color button{border:none; cursor:pointer;}
@@ -14,7 +15,8 @@ ul,ol,li{ list-style: none; margin:0; padding:0;}
 .buy #aa{ width:350px; height: 40px; float: right; position: relative; right:350px;bottom:200px; background-color: #666; color:#fff; font-size: 18px; border:none; 
             border-radius: 10px; cursor: pointer;}
 .sell img{position: relative;}
-
+#aa:hover{background-color: #fff; color:#333;}
+#aa{transition:all 0.3s ease;}
         
 
 #z{display:none;}
