@@ -65,20 +65,21 @@
  #new h1{margin:50px 0 50px 0;}
  #best{width: 1250px; height: 1130px; margin:0 auto;}
  #best h1{text-align: center; position:relative; bottom:30px;}
- .hot{width: 287px; height: 370px;  float: left; margin:0 0px 30px 7px; background-color: #fff;
+ .hot{width: 287px; height: 370px;  float: left; margin:0 0px 30px 20px; background-color: #fff;
   box-shadow: 4px 4px 4px #eee; box-sizing: border-box;}
  .hot img{width: 287px; margin:0 0 20px 0;}
- .abc ul li{width:100px; height:100%; display: inline-block; padding:15px; font-size: 20px;
-     margin:0 0 50px 52px; background-color: #eee; text-align: center; font-family: Arial, Helvetica, sans-serif;}
+ .abc ul li:not(:nth-child(1)){width:100px; height:100%; display: inline-block; padding:15px; font-size: 20px;
+     margin:0 0 50px 50px; background-color: #eee; text-align: center; font-family: Arial, Helvetica, sans-serif; position:relative; left:90px;}
  .abc ul li a{display: inline-block; text-decoration: none; text-decoration: none;color:#333;}
-  #aw{width:100px; height:100%; background-color: #2b324c; color:#fff;}
+  #aw{width:100px; height:100%; background-color: #2b324c; color:#fff; padding:15px; font-size: 20px; display: inline-block; position:relative;
+left:90px; top:3px;text-align: center;}
 
  .hot a{text-decoration: none; color:#666;}
  .hot h4{ margin:-15px 0 0 0; font-size: 20px;font-family:IgraSans; padding:10px;}
  .hot span{font-size: 18px; margin:0 0 0 5px; font-family:IgraSans; padding:10px;}
  .hot:hover{opacity: 0.5; transition: all 0.3s ease-in-out;}
- .m5{position:relative; top:4px;}
- 
+ .m5{position:relative; right:4px;}
+  .m6{position: relative; right:9px;}
 
 
 

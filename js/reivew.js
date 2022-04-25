@@ -1,32 +1,32 @@
 $(function(){
-    $('#44').click(function(){
-       $('.rr1').hide();
-       $('#qq').show();
-       $('.anso').hide();
+    $('#222').click(function(){
+       $('#riview').hide();
+       $('#qna').show();
+       $('#text').hide();
     });
-    $('#55').click(function(){
-       $('.rr1').hide();
-       $('#qq').hide();
-       $('.anso').show();
+    $('#333').click(function(){
+       $('#riview').hide();
+       $('#qna').hide();
+       $('#text').show();
     });
-    $('#11').click(function(){
-       $('.rr1').show();
-       $('#qq').hide();
-       $('.anso').hide();
+    $('#111').click(function(){
+       $('#riview').show();
+       $('#qna').hide();
+       $('#text').hide();
     });
-    $('#1').click(function(){
-       $('.rr1').show();
-       $('#qq').hide();
-       $('.anso').hide();
+    $('#666').click(function(){
+       $('#riview').show();
+       $('#qna').hide();
+       $('#text').hide();
     });
-    $('#3').click(function(){
-       $('.rr1').hide();
-       $('#qq').show();
-       $('.anso').hide();
+    $('#777').click(function(){
+       $('#riview').hide();
+       $('#qna').show();
+       $('#text').hide();
     });
-    $('#4').click(function(){
-       $('.rr1').hide();
-       $('#qq').hide();
-       $('.anso').show();
+    $('#888').click(function(){
+       $('#riview').hide();
+       $('#qna').hide();
+       $('#text').show();
     });
    });

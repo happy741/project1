@@ -1,4 +1,5 @@
 *{margin: 0; padding:0;}
+ul,ol,li{ list-style: none; margin:0; padding:0;}
 .buy{width: 1400px; height: 680px; background-color:#f9f6ef; margin:0 auto; margin-top:15px;} 
 .sell{width:400px; height: 480px; position: relative; top:50px; left:120px; float: left;}
 .bt button{width:100px; height:100px; margin:70px 20px 0 0; cursor: pointer; border:none;}
@@ -42,38 +43,54 @@
 
 
 
-.detail{ width: 1200px; height: 7516px; background-color: #666; margin:0 auto;}
+.detail{ width: 1200px; height: 7516px;  margin:0 auto;}
+
+
+#shopping2{width: 1200px; height: 50px; margin:200px auto 0;}
+#shopping2 >ul{width: 1200px; height: 50px; margin:40px auto 0;}
+#shopping2 ul li{width:297px; height: 100%; background-color: #eee; float: left; text-align: center;
+                padding:15px 0 0 0; border:1px solid #ddd;font-size: 16px;}
+#shopping2 ul li a{text-decoration: none; color:#333; font-family:'나눔고딕OTF';}
 
 
 
-.rievew{width: 1200px; height: 650px; margin:0 auto;}
-.page{width: 1200px; height: 40px;  margin:0 auto; display: inline; }
-.box{width: 120px; height: 31px; margin:10px 10px 0 15px;}
+#shopping{width: 1200px; height: 500px; margin:200px auto 0;}
+#shopping >ul{width: 1200px; height: 50px; margin:40px auto 0;}
+#shopping ul li{width:297px; height: 100%; background-color: #eee; float: left; text-align: center;
+                padding:15px 0 0 0; border:1px solid #ddd; border-bottom:1px solid #000; font-size: 16px;}
+#shopping ul li a{text-decoration: none; color:#333; font-family:'나눔고딕OTF';}
+#text{display: none;}
 
-.rr1 h1{ display: inline-block; margin:15px; font-family: 나눔고딕OTF; margin:27px 10px 5px 0;}
-.rr1 span{margin:10px 0 0 -15px; font-size: 17px; font-family: 나눔고딕OTF;}
-.rrbox{ width: 1200px; height:400px;}
-.rrbox div{width: 250px; height: 300px; background-color: #fff; position: relative;left:20px; top:30px; display: ;}
-.rievew div{float: right; width: 120px; height: 31px; background-color: #fff; border:1px solid #666; font-family: 나눔고딕OTF; cursor:pointer
-                ;margin:10px 0 0 0;}
-.rrbox img{width: 270px; height: 350px;}
+#riview button{margin:10px 0 10px 1100px; width: 100px; height: 40px; font-family:'나눔고딕OTF' ; background-color: #333; color:#fff; border:none; border-radius: 5px;}
+#riview img{margin:5px 0 0 10px;}
+#riview p{width: 200px; height: 100px; background-color: #eee; font-family:'나눔고딕OTF' ; font-size: 15px;}
 
-.dossobox{width: 1200px; height: 400px;}
-.qnabox{width: 1200px; height: 400px;}
+#riview button:hover{background-color: #999;}
 
-.anso{ display: inline-block; margin:15px; font-family: 나눔고딕OTF; margin:27px 10px 5px 0;}
-#qq{display: none;}
-.anso{display: none;}
-.qna{display: inline-block; margin:15px; font-family: 나눔고딕OTF; margin:27px 10px 5px 0;}
+#text table{border:1px solid #ddd; font-family:'나눔고딕OTF'; width: 1200px; height:400px; border:1px solid #ddd;}
+#text th{border:1px solid #ddd;}
+#text td{border:1px solid #ddd;}
 
+#qna th{width: 80px; border-bottom:1px solid #eee; color:#333;}
+#qna table td:first-of-type{width: 770px; border-bottom:1px solid #eee;}
+#qna table td:first-of-type >a{color:#333;}
+#qna table td:nth-of-type(2){width: 80px; text-align: center; border-bottom:1px solid #eee;}
+#qna table td:nth-of-type(3) {width:120px; text-align:center; border-bottom:1px solid #eee;}
 
-.qna h1{display: inline-block;}
+#qna table td:last-of-type {width:150px; text-align:center; border-bottom:1px solid #eee;}
 
-.page div:hover{ background-color: #666; color:#fff;}
-.page div{transition:all 0.3s ease;}
-.go div:hover{background-color: #666; color:#fff;}
-#nn:hover{background-color: #666; color:#fff;}
-.go div{transition:all 0.3s ease;}
-#aa:hover{background-color: #fff; color:#333;}
-#aa{transition:all 0.3s ease;}
-.page div:visited{background-color: rgb(182, 23, 23); color:#fff;}
+#qna table {width:1200px; height:450px; margin:0 auto; text-align:center; font-size: 15px;}
+
+#qna button {float:right; margin:25px 0px; width:120px; height:40px; color:#fff; font-size:14px; background-color:#333; border:1px solid #ddd;
+                border-radius: 5px;}
+
+#qna button:hover {cursor:pointer; background-color: #999;}
+
+#qna table {display:inline-block; margin:0px auto; border-top:1px solid #333; line-height:50px; width:1200px; font-size:13px; color:#333;}
+
+#qna table a{text-decoration: none;}
+#qna table a:hover{text-decoration: underline;}
+
+#qna{display:none;}
+
+#qna ul:hover{cursor: pointer;}
